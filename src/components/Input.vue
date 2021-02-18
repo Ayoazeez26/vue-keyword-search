@@ -5,7 +5,7 @@
         Star wars name
       </label>
       <div class="relative mb-3">
-        <input class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="name" type="text">
+        <input v-model="keyword" class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="name" type="text">
         <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
           <svg class="h-4 w-4" xmlms="http:/www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
         </div>
